@@ -22,7 +22,6 @@ const Projects = () => {
                 })} 
            
             </div>
- {/*  =========popup bootstrap==========  */}
 
  <Modal size='md' isOpen={modal} toggle={() => setModal(!modal)}>
                         <ModalHeader toggle={() => setModal(!modal)}>
@@ -39,7 +38,6 @@ const Projects = () => {
                             </form>
                         </ModalBody>
                     </Modal>
-                    {/*  =========popup bootstrap end==========  */}
                     <p className='donate' onClick={() => setModal(true)}>Liked the dummyValue's ? Consider donating Eth's <FaDonate className='icon' /></p>
         </section>
     )

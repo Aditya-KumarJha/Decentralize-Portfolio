@@ -86,18 +86,6 @@
     background-color: var(--color-bg);
 }
 
-/* .hero-text .connect-btn {
-    margin-top: 36px;
-    color: white;
-    font-weight: 400;
-    background-color: var(--color-blue);
-    height: 42px;
-    width: 42px;
-    border: 2px solid rgb(86, 88, 226);
-    border-radius: 30px;
-    margin-left: 40px;
-} */
-
 .hero-text .connect-btn .icon {
     color: black;
     width: 40px;
